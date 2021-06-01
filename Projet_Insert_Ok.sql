@@ -1,0 +1,61 @@
+INSERT INTO Promotions VALUES (1, "INF");
+INSERT INTO Promotions VALUES (2, "INF");
+INSERT INTO Promotions VALUES (3, "INF+ges");
+INSERT INTO Promotions VALUES (4, "INF+ges");
+
+
+INSERT INTO Etudiants VALUES ( 10, "Konushbaeva" , "Begimai", 4);
+INSERT INTO Etudiants VALUES ( 11, "Maillet" , "David", 4);
+INSERT INTO Etudiants VALUES ( 12, "Naitali" , "Idir", 4);
+INSERT INTO Etudiants VALUES ( 13, "Zaoui", "Janis", 3);
+INSERT INTO Etudiants VALUES ( 14, "Bouhroum" , "Sami", 4);
+INSERT INTO Etudiants VALUES ( 15, "Siong" , "Kenny", 3);
+INSERT INTO Etudiants VALUES ( 16, "Mahi" , "Riad", 3);
+INSERT INTO Etudiants VALUES  ( 17, "Crivoi" , "Dmitrii", 3);
+INSERT INTO Etudiants VALUES  ( 18, "Vabre" , "Benjamin", 4);
+INSERT INTO Etudiants VALUES  ( 20, "Fournout" , "Nicolas", 3);
+INSERT INTO Etudiants VALUES ( 21, "Fiori" , "Victoria", 3);
+INSERT INTO Etudiants VALUES  ( 22, "De Luca", "Johnatan", 1);
+INSERT INTO Etudiants VALUES ( 23, "Poulat", "Laura", 2);
+INSERT INTO Etudiants VALUES (24, "Saoudi" , "Khaoula,", 2);
+INSERT INTO Etudiants VALUES ( 25, "Vivot", "Liz", 1);
+INSERT INTO Etudiants VALUES ( 26, "Souly", "Jihane", 3);
+INSERT INTO Etudiants VALUES  ( 19, "Gorur" , "Selim", 3);
+INSERT INTO Etudiants VALUES ( 27, "Sabri" , "Wiam", 1);
+INSERT INTO Etudiants VALUES ( 28, "Tebbikh" , "Abdessalem", 4);
+INSERT INTO Etudiants VALUES (29, "Khaddar" , "Myriam", 4);
+INSERT INTO Etudiants VALUES ( 30, "Xin" , "Kai", 3);
+INSERT INTO Etudiants VALUES ( 31, "Seetho" , "Maree", 2);
+INSERT INTO Etudiants VALUES ( 32, "Laghrisse" , "Hatim", 2);
+INSERT INTO Etudiants VALUES ( 33, "Belhouchet" , "Sami", 2);
+INSERT INTO Etudiants VALUES ( 34, "Fabre" , "Loic", 1);
+INSERT INTO Etudiants VALUES ( 35, "Zaoui" , "Yanis", 1);
+
+INSERT INTO Cours VALUES ( "INF401" , 6);
+INSERT INTO Cours VALUES  ( "INF403" , 6);
+INSERT INTO Cours VALUES  ("INF404", 3);
+INSERT INTO Cours VALUES ( "STA401" , 6);
+INSERT INTO Cours VALUES ( "Anglais" , 3);
+INSERT INTO Cours VALUES  ( "ETC" , 3);
+INSERT INTO Cours VALUES ("GES401", 6);
+
+INSERT INTO Examens VALUES ( '2021-05-21' , 1, "INF403");
+INSERT INTO Examens VALUES (  '2021-05-22', 1, "INF401");
+INSERT INTO Examens VALUES ( ' 2021-05-23', 2, "INF404");
+INSERT INTO Examens VALUES  ( '2021-05-24' , 4, "INF401");
+INSERT INTO Examens VALUES (  '2021-05-25' , 3,  "INF403");
+INSERT INTO Examens VALUES ( '2021-05-26', 4, "INF403");
+INSERT INTO Examens VALUES ( '2021-05-27', 4, "INF403");
+INSERT INTO Examens VALUES ( '2021-05-28', 1, "STA401");
+INSERT INTO Examens VALUES ( '2021-05-29', 2, "STA401");
+INSERT INTO Examens VALUES ( '2021-05-30', 3, "INF401");
+INSERT INTO Examens VALUES ( '2021-05-20', 2, "Anglais");
+INSERT INTO Examens VALUES ( '2021-05-19', 2, "ETC");
+
+INSERT INTO Professeurs VALUES ( "Tavernier" , "Vincent", "INF403");
+INSERT INTO Professeurs VALUES ( "El Aidi" , "Ahmed" ,  "Anglais");
+INSERT INTO Professeurs VALUES ( "Martinet", "Cecile", "STA401");
+INSERT INTO Professeurs VALUES ( "Mounier", "Laurent", "INF404");
+INSERT INTO Professeurs VALUES ( "Fraisse", "Elif" , "ETC");
+INSERT INTO Professeurs VALUES ( "Bouhineau" , "Denis" , "INF401");
+INSERT INTO Professeurs VALUES ("Martins", "Estelle", "GES401");
