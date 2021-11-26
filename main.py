@@ -3,20 +3,6 @@
 from utils import db
 
 
-#def select_tous_les_bateaux(conn):
-    #"""
-    #Affiche la liste de tous les bateaux.
-
-    #:param conn: Connexion à la base de données
-    #"""
-    #cur = conn.cursor()
-    #cur.execute("SELECT * FROM Bateaux")
-
-    #rows = cur.fetchall()
-
-    #for row in rows:
-        #print(row)
-
 def select_cours_6_credits(conn):
     cur = conn.cursor()
     cur.execute("SELECT matiere "
